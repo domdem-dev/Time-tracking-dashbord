@@ -7,7 +7,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 - [The challenge](#the-challenge)
 - [Links](#links)
 - [Built with](#built-with)
--[Credits](#credits)
+- [Credits](#credits)
 
 
 ### The challenge
@@ -21,8 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://time-tracking-dashboard-domdev.netlify.app/
 
 
 ### Built with
