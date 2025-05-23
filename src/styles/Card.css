@@ -1,0 +1,114 @@
+.cards{
+    box-sizing: border-box;
+    width: 320px;
+    height: 180px;
+    margin: 20px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#Work{
+    background-color: hsl(15, 100%, 70%);
+    background-image: url('./images/icon-work.svg');
+}
+#Play{
+    background-color: hsl(195, 74%, 62%);
+    background-image: url('./images/icon-play.svg');
+}
+#Study{
+    background-color: hsl(348, 100%, 68%);
+    background-image: url('./images/icon-study.svg');
+}
+#Exercise{
+    background-color: hsl(145, 58%, 55%);
+    background-image: url('./images/icon-exercise.svg');
+}
+#Social{
+    background-color: hsl(264, 64%, 52%);
+    background-image: url('./images/icon-social.svg');
+}
+#Self-care{
+    background-color: hsl(43, 84%, 65%);
+    background-image: url('./images/icon-self-care.svg');
+}
+
+.info{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    width: 320px;
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.info:hover{
+    background-color: hsl(235, 36%, 37%);
+}
+.first-line, .second-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 0;
+    width: 100%;
+}
+.title{
+    color: hsl(236, 100%, 87%);
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+.ellipsis{
+    width: 10%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.actual{
+    font-weight: 300;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+.previous{
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 1160px){
+    .cards{
+        width: 260px;
+        height: 220px;
+    }
+    .info{
+        width: 260px;
+        height: 170px;
+        display: initial;
+    }
+    .first-line{
+        padding-top: 25px;
+        padding-bottom: 10px;
+        
+    }
+    .second-line{
+        display: block;
+    }
+    .actual{
+        font-size: 50px;
+        padding-bottom: 5px;
+    }
+}
